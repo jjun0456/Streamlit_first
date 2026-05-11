@@ -124,6 +124,7 @@ if st.session_state.quiz_submitted:
             st.write(f"- {detail}")
         
         
+        
         st.divider()
         if st.button("처음으로 돌아가기 (리셋)"):
             st.session_state.quiz_submitted = False
